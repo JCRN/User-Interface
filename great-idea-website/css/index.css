@@ -93,7 +93,7 @@ nav a:hover {
 	margin-top: -10px;
 }
 
-/*----- HEADER -----*/
+/*--------- HEADER ----------*/
 header {
 	height: 529px;
 	position: relative;
@@ -129,10 +129,8 @@ button:hover {
 button:active {
 	background-color: lightgreen;
 	box-shadow: 0 2px lightslategray;
-	transform: translateY(4px);
-  }
-
-
+	transform: translateY(4px); 
+}
 
 .header-img {
 	margin: 0;
@@ -149,7 +147,7 @@ hr {
 	width: 876px;
 }
 
-/*------ MAIN -------*/
+/*---------- MAIN -----------*/
 
 /* Top content */
 .top-content {
@@ -194,7 +192,7 @@ hr {
 	width: 33%;		
 }
 
-/* ----- CONTACT ----- */
+/* ---------- CONTACT ---------- */
 .contact {
 	width: 876px;
 	text-align: left;
@@ -210,7 +208,7 @@ address a {
 	margin: 1% 0;
 }
 
-/*----- FOOTER -----*/
+/*---------- FOOTER ----------*/
 footer {
 	width: 876px;
 }
