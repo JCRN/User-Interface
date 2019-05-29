@@ -64,17 +64,23 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*----- GENERAL -----*/
 body {
-	margin: 25px 50px;
+	margin: 25px 100px;
 }
 
-/* Nav bar */
+.clearfix {
+	overflow: auto;
+}
+
+/*----- NAV -----*/
 nav {
-	border: solid 1px red;
+	width: 876px;
 }
 
 nav a {
-	margin-right: 10%;
+	margin-right: 6%;
 	color: gray;
 }
 
@@ -87,24 +93,116 @@ nav a:hover {
 	margin-top: -10px;
 }
 
-/* Header */
+/*----- HEADER -----*/
+header {
+	height: 529px;
+	position: relative;
+	width: 876px;
+}
 
 h1 {
-	width: 50%;
+	width: 30%;
 	text-align: center;
-	border: 1px solid red;
+	font-size: 70px;
+	margin: 0 0 0 85px;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 button {
 	background: none;
 	border: 1px solid black;
 	padding: 2px 25px;
+	margin: 15px 0 0 60px;
+	position: absolute;
+	top: 70%;
+	left: 11%;
 }
 
-.top-img {
-	float: right;
+.header-img {
+	margin: 0;
+	position: absolute;
+	left: 497px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 } 
 
-.clearfix {
-	overflow: auto;
+hr {
+	display: inline-block;
+	color: gray;
+	width: 876px;
+}
+
+/*------ MAIN -------*/
+
+/* Top content */
+.top-content {
+	width: 876px;
+}
+
+.top-left {
+	display: inline-block;
+	width: 50%;
+	margin: 3% 0;
+}
+
+.top-right {
+	float: right;
+	width: 50%;
+	margin: 3% 0;
+}
+
+/* Bottom content */
+.btm-content {
+	width: 876px;
+}
+
+.btm-left {
+	display: inline-block;
+	margin: 3% 0;
+	padding: 10px;
+	width: 33%;	
+}
+
+.btm-center {
+	display: inline-block;
+	margin: 3% 0;
+	padding: 10px;
+	width: 33%;	
+}
+
+.btm-right {
+	display: inline-block;
+	margin: 3% 0;
+	padding: 10px;
+	width: 33%;		
+}
+
+/* ----- CONTACT ----- */
+.contact {
+	width: 876px;
+	text-align: left;
+}
+
+.contact h3 {
+	display: inline-block;
+	margin-top: 3%;
+}
+
+address a {
+	display: inline-block;
+	margin: 1% 0;
+}
+
+/*----- FOOTER -----*/
+footer {
+	width: 876px;
+}
+
+footer p {
+	margin: 3% 0;
+	text-align: center;
 }
