@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1;	
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,156 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*---------- GENERAL ----------*/
+body {
+	margin: 25px 100px;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+/*---------- NAV ----------*/
+nav {
+	width: 876px;
+}
+
+nav a {
+	margin-right: 6%;
+	color: gray;
+}
+
+nav a:hover {
+	color: #00e600;
+}
+
+.logo {
+	float: right;
+	margin-top: -10px;
+}
+
+/*--------- HEADER ----------*/
+header {
+	height: 529px;
+	position: relative;
+	width: 876px;
+}
+
+h1 {
+	width: 30%;
+	text-align: center;
+	font-size: 70px;
+	margin: 0 0 0 85px;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+button {
+	background: none;
+	border: 1px solid black;
+	padding: 5px 25px;
+	text-align: center;
+	box-shadow: 0 4px lightgray;
+	position: absolute;
+	top: 73%;
+	left: 17%;
+}
+
+button:hover {
+	background-color: lightgreen;
+}
+
+button:active {
+	background-color: lightgreen;
+	box-shadow: 0 2px lightslategray;
+	transform: translateY(4px); 
+}
+
+.header-img {
+	margin: 0;
+	position: absolute;
+	left: 497px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+} 
+
+hr {
+	display: inline-block;
+	color: gray;
+	width: 876px;
+}
+
+/*---------- MAIN -----------*/
+
+/* Top content */
+.top-content {
+	width: 876px;
+}
+
+.top-left {
+	display: inline-block;
+	width: 50%;
+	margin: 3% 0;
+}
+
+.top-right {
+	float: right;
+	width: 50%;
+	margin: 3% 0;
+}
+
+/* Bottom content */
+.btm-content {
+	width: 876px;
+}
+
+.btm-left {
+	display: inline-block;
+	margin: 3% 0;
+	padding: 10px 0;
+	width: 33%;	
+}
+
+.btm-center {
+	display: inline-block;
+	margin: 3% 0;
+	padding: 10px;
+	width: 33%;	
+}
+
+.btm-right {
+	display: inline-block;
+	margin: 3% 0;
+	padding: 10px;
+	width: 33%;		
+}
+
+/* ---------- CONTACT ---------- */
+.contact {
+	width: 876px;
+	text-align: left;
+}
+
+.contact h3 {
+	display: inline-block;
+	margin-top: 3%;
+}
+
+address a {
+	display: inline-block;
+	margin: 1% 0;
+}
+
+/*---------- FOOTER ----------*/
+footer {
+	width: 876px;
+}
+
+footer p {
+	margin: 3% 0;
+	text-align: center;
+}
